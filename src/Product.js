@@ -15,7 +15,7 @@ class Product extends React.Component {
                         <p>{this.props.keterangan}</p>
                     </div>
                     <div className="card-action">
-                        <a href="#" className="waves-effect waves-light red btn">Hapus
+                        <a onClick={this.props.hapusKartu} className="waves-effect waves-light red btn">Hapus
                             <i className="material-icons left">delete</i>
                         </a>
                     </div>
